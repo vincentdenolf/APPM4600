@@ -1,0 +1,32 @@
+3.1 Exercises
+
+>>> x=[1,2,3]
+>>> 3*x
+[1, 2, 3, 1, 2, 3, 1, 2, 3]
+>>> import numpy as np
+>>> y = np.array([1,2,3])
+>>> 3 * y
+array([3, 6, 9])
+>>> 3*y
+array([3, 6, 9])
+>>> print("this is 3y",3*y)
+this is 3y [3 6 9]
+
+3.2 Exercises
+
+>>> x = np.linspace(0,5,10)
+>>> y = np.arange(0,5,0.5)
+>>> print(len(x),len(y))
+10 10
+>>> print("first 3 enteries of x are ",x[0],x[1],x[2])
+first 3 enteries of x are  0.0 0.5555555555555556 1.1111111111111112
+
+>>> w = 10 ** (-np.linspace(1,10,10))
+>>> len(w)
+10
+>>> x = np.linspace(1,len(w),len(w))
+>>> len(x)
+10
+>>> print(x)
+[ 1.  2.  3.  4.  5.  6.  7.  8.  9. 10.]
+
