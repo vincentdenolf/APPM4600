@@ -22,7 +22,7 @@ Copyright (C) 2025  Adrianna M. Gillman
 """
 ############################################# 
 
-
+#import packages
 import numpy as np
 import numpy.linalg as la
 import math
@@ -47,7 +47,7 @@ def driver():
 # print the output
      print('the dot product is : ', dp)
 
-
+# test
 # define matrix and vector to multiply
      A = np.ndarray([2,3],[5,6])
      v = np.array([2,3])
@@ -63,7 +63,7 @@ def dotProduct(x,y,n):
         dp = dp + x[j]*y[j]
 
      return dp  
-
+# this is for testing commits!
 def matrixVectorProduct(A,x,n):
 # computes the product of an n x n matrix and the n x 1 vector x
      mp = 0
@@ -73,3 +73,6 @@ def matrixVectorProduct(A,x,n):
 
      return mp
 driver()               
+
+
+# this code was never finished
